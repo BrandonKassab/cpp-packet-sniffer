@@ -1,1 +1,2 @@
 # cpp-packet-sniffer
+A real-time C++ network packet sniffer and protocol analyzer built with `libpcap`. This tool captures live traffic from a network interface and decodes key protocol layers including Ethernet, IPv4, IPv6, TCP, UDP, and ICMP. It extracts IP addresses, port numbers, and labels traffic from known services (e.g. YouTube or Google) using IPv6 prefix matching. Designed for system-level visibility and protocol awareness, this project demonstrates low-level packet parsing, memory-safe pointer handling, and real-world network analysis in C++.
